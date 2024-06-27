@@ -1575,9 +1575,9 @@
   resolved "https://registry.npmjs.org/@uniswap/lib/-/lib-4.0.1-alpha.tgz"
   integrity sha512-f6UIliwBbRsgVLxIaBANF6w09tYqc6Y/qXdsrbEmXHyFA7ILiKrIwRFXe1yOg8M3cksgVsO9N7yuL2DdCGQKBA==
 
-"@uniswap/sdk-core@https://github.com/swap-great/sdk-core.git":
+"@uniswap/sdk-core@https://github.com/0xdefi-club/dtx-swap-sdk-core.git":
   version "4.2.0"
-  resolved "https://github.com/swap-great/sdk-core.git#e52389342683ae7ce86a2afd20f22d37d3b29aa3"
+  resolved "https://github.com/0xdefi-club/dtx-swap-sdk-core.git#59e526f3fd881bcff5ebe00db2b5cb78172fbb87"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -1603,13 +1603,13 @@
   resolved "https://registry.npmjs.org/@uniswap/v2-core/-/v2-core-1.0.1.tgz"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
 
-"@uniswap/v2-sdk@https://github.com/swap-great/v2-sdk.git":
+"@uniswap/v2-sdk@https://github.com/0xdefi-club/dtx-swap-v2-sdk-routing-api.git":
   version "4.3.0"
-  resolved "https://github.com/swap-great/v2-sdk.git#736f11c94f202b6081ed69c99e01a8383aca36a1"
+  resolved "https://github.com/0xdefi-club/dtx-swap-v2-sdk-routing-api.git#3d470bb18211b106f3361d9023628316d381bcd6"
   dependencies:
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
-    "@uniswap/sdk-core" "https://github.com/swap-great/sdk-core.git"
+    "@uniswap/sdk-core" "https://github.com/0xdefi-club/dtx-swap-sdk-core.git"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
@@ -1630,13 +1630,13 @@
     base64-sol "1.0.1"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/v3-sdk@https://github.com/swap-great/v3-sdk-11.git":
+"@uniswap/v3-sdk@https://github.com/0xdefi-club/dtx-swap-v3-sdk-routing-api.git":
   version "3.11.0"
-  resolved "https://github.com/swap-great/v3-sdk-11.git#6aab036449b601f6ce0b19e9e24460beb390ca90"
+  resolved "https://github.com/0xdefi-club/dtx-swap-v3-sdk-routing-api.git#c9d26f26468c2a75cb582c74f14175a2352fb68d"
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
-    "@uniswap/sdk-core" "https://github.com/swap-great/sdk-core.git"
+    "@uniswap/sdk-core" "https://github.com/0xdefi-club/dtx-swap-sdk-core.git"
     "@uniswap/swap-router-contracts" "^1.2.1"
     "@uniswap/v3-periphery" "^1.1.1"
     "@uniswap/v3-staker" "1.0.0"
