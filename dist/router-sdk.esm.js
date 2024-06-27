@@ -40,7 +40,6 @@ var ZERO_PERCENT = /*#__PURE__*/ new Percent(ZERO)
 var ONE_HUNDRED_PERCENT = /*#__PURE__*/ new Percent(100, 100)
 
 var ApprovalTypes
-
 ;(function (ApprovalTypes) {
   ApprovalTypes[(ApprovalTypes['NOT_REQUIRED'] = 0)] = 'NOT_REQUIRED'
   ApprovalTypes[(ApprovalTypes['MAX'] = 1)] = 'MAX'
@@ -2024,7 +2023,6 @@ var MixedRouteTrade = /*#__PURE__*/ (function () {
 })()
 
 var Protocol
-
 ;(function (Protocol) {
   Protocol['V2'] = 'V2'
   Protocol['V3'] = 'V3'
